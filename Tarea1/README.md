@@ -12,6 +12,8 @@ Ejercicios básicos (clase con solo método main).
 temperatura en la escala Celcios y después calcule y muestre el valor flotante
 equivalente en la escala Farenheit. Utilice la formula F = 1.8C+32.
 
+
+
 2. Escriba un programa que reciba como entrada una cadena de 12 dígitos que represente
 un número de teléfono. Extraiga los 2 primeros números correspondientes al código de
 país, Los 3 dígitos siguientes correspondientes con el código de área y los 7 últimos
