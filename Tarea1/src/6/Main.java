@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // nuevo objeto de la clase Scanner
+        
         Scanner scanner = new Scanner(System.in);
         // solicitar al usuario un año entre 1800 y 2022
-
+ 
         while (true) {
             System.out.println("Ingrese un año entre 1800 y 2022: ");
             // leer el año ingresado por el usuario

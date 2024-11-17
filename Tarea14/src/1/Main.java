@@ -1,0 +1,1 @@
+// Implemente las clases GameCharacter y GameSaverTest para probar el concepto de serialización.

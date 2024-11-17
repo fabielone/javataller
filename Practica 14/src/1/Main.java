@@ -1,0 +1,1 @@
+// Escriba un programa que reproduzca una secuencia de sonidos y muestre un rectángulo relleno aleatorio en un marco (frame) por cada sonido reproducido.

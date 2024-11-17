@@ -8,25 +8,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // nuevo objeto de la clase Scanner
+        
         Scanner scanner = new Scanner(System.in);
         // solicitar al usuario el nombre de un mes
         System.out.println("Ingrese el nombre de un mes: ");
         // leer el nombre del mes ingresado por el usuario
         String mes = scanner.nextLine();
-        // cerrar el objeto scanner
+       
         scanner.close();
         // asegurarse de que el nombre del mes ingresado por el usuario no esté vacío
         if (mes.isEmpty()) {
             System.out.println("El nombre del mes no puede estar vacío.");
             return;
         }
-        // asegurarse de que el nombre del mes ingresado por el usuario tenga al menos tres letras
-        if (mes.length() < 3) {
-            System.out.println("El nombre del mes debe tener al menos tres letras.");
-            return;
-        }
-        //asegurarse de que el nombre del mes ingresado por el usuario tenga solo letras
+       
+        //nombre del mes solo puede tener letras
         if (!mes.matches("[a-zA-Z]+")) {
             System.out.println("El nombre del mes debe contener solo letras.");
             return;

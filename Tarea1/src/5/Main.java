@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // nuevo objeto de la clase Scanner
+        
         Scanner scanner = new Scanner(System.in);
         // solicitar al usuario tres cadenas de caracteres
         System.out.println("Ingrese la primera cadena de caracteres: ");

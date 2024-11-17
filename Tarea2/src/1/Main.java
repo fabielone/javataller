@@ -8,7 +8,7 @@ public class Main {
         // nuevo objeto de la clase Scanner
         Scanner scanner = new Scanner(System.in);
 
-        try {
+        
             // solicitar al usuario cinco valores flotantes
             System.out.println("Ingrese cinco valores flotantes: ");
             
@@ -23,14 +23,12 @@ public class Main {
 
             // cerrar el objeto scanner
             scanner.close();
-            
+             
             // calcular el promedio
             float promedio = suma / cantidadValores;
 
             // mostrar el promedio
             System.out.println("El promedio de los cinco valores flotantes ingresados es: " + promedio);
-        } catch (Exception e) {
-            System.out.println("Por favor, ingrese un valor flotante válido.");
-        }
+       
     }
 }
