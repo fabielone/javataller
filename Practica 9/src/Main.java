@@ -1,0 +1,1 @@
+// Implemente la clase MockSongs, SongV3 y JukeBox6 (clase de prueba) para ordenar las canciones por título y por artista (utilizando lambdas). Agregue al ejemplo de clase las canciones ordenadas por BPM.
